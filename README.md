@@ -52,7 +52,7 @@ e2b auth login
 # Navigate to the sandbox template directory
 cd sandbox-templates/nextjs
 
-# Build the template (replace 'your-template-name' with your desired name)
+# Build the template (replace 'your-template-name' with your desired name) name: smartweb-template
 e2b template build --name your-template-name --cmd "/compile_page.sh"
 ```
 

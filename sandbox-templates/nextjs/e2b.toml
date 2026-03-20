@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (g9a0li2fhbxy906ql51w) or template name (smartweb-template) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox.create("smartweb-template") # Sync sandbox
+# sandbox = await AsyncSandbox.create("smartweb-template") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('smartweb-template')
+
+team_id = "9dad4a7d-6448-4aac-a7a6-c9a02c4aa509"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "smartweb-template"
+template_id = "g9a0li2fhbxy906ql51w"
